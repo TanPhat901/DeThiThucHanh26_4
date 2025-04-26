@@ -13,7 +13,7 @@ int main() {
 
         if (cin.fail() || n <= 0) {
             cout << "Loi: Vui long nhap so nguyen duong!" << endl;
-            cin.clear(); // xóa l?i
+            cin.clear(); // xóa loi
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
         } else {
             break;
@@ -38,7 +38,7 @@ int main() {
         }
     }
 
-    // Tìm s? l?n nh?t chia h?t cho 3
+    // Tìm so lon nhat chia het cho 3
     bool timThay = false;
     int maxChiaHet3;
 
@@ -51,7 +51,7 @@ int main() {
         }
     }
 
-    // In k?t qu?
+    // In ket qua
     if (timThay) {
         cout << "So lon nhat chia het cho 3 la: " << maxChiaHet3 << endl;
     } else {
